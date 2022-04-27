@@ -42,12 +42,12 @@ const authMethods = {
 export const TndevProvider = ({ children }) => {
   const [openDrawer, setOpenDrawer] = useState(false);
 
-  const [states, setStates] = useState({
+  const [states] = useState({
     openDrawer,
     setOpenDrawer
   });
 
-  const [methods, setMethods] = useState({
+  const [methods] = useState({
     authMethods
   });
 
